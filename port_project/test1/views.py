@@ -41,3 +41,5 @@ class ContainerPositionViewset(viewsets.ViewSet):
                         queryset = Container.objects.all()
                         serializer = ContainerSerializer(queryset, many=True)
                         return Response(serializer.data)
+                    
+                    #test
